@@ -1,0 +1,11 @@
+
+void setup() {
+  // Subscribe to the integration response event
+    Serial.begin(9600);
+    Particle.subscribe("hook-response/Beacon", myHandler, MY_DEVICES);
+}
+void loop() {
+    String data = String(10);
+    // Trigger the integration
+    Particle.publish("Beacon", data, PRIVATE);
+}
