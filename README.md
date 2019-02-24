@@ -7,3 +7,6 @@ Each system is set to send notifications to the app that will lead the Patient t
 
 There must be an access point in every system, these AP's will be comunitcating with the cloud to notify all coresponding people
 The Particle.io server is easy to use and instructions for set up can be found at https://setup.particle.io/
+
+
+This project is licensed under the MIT License - see the License.md
